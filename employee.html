@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //design a class name with employee management system thatstores information about employee 
+    //  their,name ,id,salary ,depertmnent of manage record .employee run the code by
+    //  create minimum 5 dates of object//
+    class employee
+    {
+        constructor(name,id,salary,department)
+        {
+         this.name=name;
+         this.salary=salary;
+         this.id=id;
+         this.department=department;
+        }
+    
+    workers()
+    {
+        document.write(this.name+' '+this.salary+' '+this.id+' '+this.department+'<br>')
+    }
+   }
+    var emp1=new employee('nithya',10000,'101','communication')
+    var emp2=new employee('aathi',10000,'102','developer')
+    var emp3=new employee('shree',16000,'103','frontend')
+    var emp4=new employee('ajitha',20000,'104','backend')
+    var emp5=new employee('harshini',30000,'105','fullstack')
+    emp1.workers();
+    emp2.workers();
+    emp3.workers();
+    emp4.workers();
+    emp5.workers();
+</script>
+</html>

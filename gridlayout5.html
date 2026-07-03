@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+          display: grid;
+          margin: 0;
+          grid-template-areas:
+          "header header header"
+          "article nav ads"
+          "nav ads ads"
+         "footer footer footer";
+          grid-template-rows: 1fr 20% 1fr 80px;
+          grid-template-columns:1fr 15% 15%;
+          height:100vh;
+          grid-row-gap: 2px;
+          grid-column-gap: 5px;
+        }
+      header,footer,article,nav,div
+      {
+        text-align: center;
+        padding:1.2em;
+        background-color: lightgray ;
+        color:black
+      }
+      #header
+        {
+        grid-area: header;
+        background-color: aquamarine;
+        }
+        #pagefooter
+        {
+        grid-area: footer;
+        background-color: rgb(253, 159, 124);
+        }
+        #mainarticle
+        {
+        grid-area: article;
+        background-color: rgb(116, 202, 202);
+        }
+        #mainnav
+        {
+         grid-area: nav;
+         background-color: rgb(163, 119, 185);
+        }
+        #siteads
+        {
+        grid-area:ads;
+        background-color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <header id="header">HEADER</header>
+    <article id="mainarticle">ARTICLE</article>
+    <nav id="mainnav">NAV</nav>
+    <div id="siteads">DIV</div>
+    <footer id="pagefooter">FOOTER</footer>
+</body>
+</html>

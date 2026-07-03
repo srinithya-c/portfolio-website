@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+        margin: 0;
+        display: flex;
+        height: 100vh;
+        background-color: antiquewhite;
+        flex-direction: row-reverse;
+        }
+        .container>div 
+        {
+            display: flex;
+            flex-direction: column;
+            font-size: 5vw;
+            padding: 1.2em;
+        }
+        .r  
+        {
+         color: aliceblue;
+         background-color: rgb(179, 250, 83);
+         flex-grow: 1;
+        }
+        .o 
+        {
+            color: aliceblue;
+            background-color: rgb(132, 77, 156);
+            flex-grow: 1;
+        }
+        .y
+        {
+            color: aliceblue;
+            background-color: rgb(230, 111, 174);
+            flex-grow: 2;
+        }
+        </style>
+    <body>
+        <div class="container">
+            <div class="r">1</div> 
+            <div class="o">2</div>
+            <div class="y">3</div>
+        
+        </div>   
+</body>
+</html>

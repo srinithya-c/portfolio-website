@@ -1,0 +1,125 @@
+HTML:
+Hyper Text Markup language
+Markup language
+this is the only language know by the browser
+html is consists of elements and attributes
+<> open tag
+</> close tag
+key and value attributes
+we create the structure of the webpage
+
+
+Attributes:
+open tag no close tag
+(name:value)pair
+key:value
+name:jayashree,nithya
+age
+city
+gender
+
+inbuild/predefined
+userdefined
+
+<> which does not has close tag (attributes)
+html,css,js are embedded tool
+which will help us to create a website
+html:content
+css-addition styles given to the content
+js:communicate with browser dynamically
+
+static         dynamic
+fixedcontent   changes made during every updates
+wikipedia      wherever we insert our datas
+online-new
+reading websites
+
+HTML version :5
+<meta charset="UTF-8">
+>,<,&,
+inner width of browser
+inner height of browser
+width and height of editors
+
+<body>
+multi media packages
+audio,viddo,content,images
+
+</body>
+
+url:
+uniform resource locator
+https:
+hyper text transfer protocol secure
+
+datas will get secured
+
+table:
+------
+table means rows and columns
+rows means cust details
+columns company requirement
+
+projects using HTML, JavaScript, Bootstrap, and CSS. These technologies are commonly used together to create interactive, responsive, and visually appealing web pages
+
+Portfolio Website – Showcase your skills, projects, and achievements.
+
+To-Do List App – A simple interactive task manager where users can add, delete, and mark tasks as completed.
+
+Landing Page – Build a professional landing page for a product or service using Bootstrap's responsive grid system.
+
+Weather App – Use an API to fetch weather data and display it dynamically based on the user's location.
+
+E-commerce Product Page – Create a product page layout with interactive features like image carousels and a product filter.
+
+Quiz App – Build a trivia quiz with JavaScript to allow users to answer questions and see their scores.
+id means container we have to give #
+class menas we have to give .
+header header header
+article nav ads
+footer nav ads
+
+nav% headerpx ads%
+ nav article article
+footer footer footer
+
+header head head 
+article nav ads
+nav ads ads
+foot foot foot 
+
+nav header header 
+nav art art 
+nav ads ads 
+
+header 
+article nav ads
+  footer
+
+  forms
+  forms means which is going to get users meaning data or users raw information 
+  types of forms:
+  admision enquiry
+  registrstion
+  name age 
+  cuty
+  gender
+  data base server my sql,postrgresql,plsql
+  alexa,siri,google,voice,copilot,chatgpt
+
+  browser memory
+  cookies(enable saved as key and value it will storaging the data) and session(visitors only when opening the window)
+
+  static
+  this is the static page where we cannot able to move the div in top ,bottom,right or left
+  for border:solid,inset, outset,grove,ridge,none,double
+  radius for bend
+
+  absoulute relative
+  relative for box
+  absoulute for text moving inside the box
+
+  task
+  image its content and button with two row and 2 columns
+  using absoulute relative 
+

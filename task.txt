@@ -1,0 +1,26 @@
+task 13.5.25
+email
+phone number
+
+task 14.5.25
+ embedded functon employess bio data
+ return
+ function c
+ document.write
+
+ task 16.5.25
+
+ <!--design a class name with employee management system that
+stores information about employee includes their,name ,id,salary ,depertmnent of manage record .employee run the code by create
+minimum 5 dates of object-->
+
+1.how to create a object
+2.do a program to differenciate function call and return keyword
+3.do a program == and === in java script
+4.validate a email id using prompt
+5.get passwords from user and validate only with length of the password using inner html
+6.explain dom in javascript
+7.concat a string using functions
+8.do a program using control statement with multiple or operators
+9.get name=javascript find vowels and consonants
+10.swapping of two nos a=45 b=98 without third variable declaration

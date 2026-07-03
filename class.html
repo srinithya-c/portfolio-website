@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    class employee
+    {
+        constructor(name,salary,city)
+        {
+         this.name=name;
+         this.salary=salary;
+         this.city=city;
+        }
+    
+    device()
+    {
+        document.write(this.name+' '+this.salary+' '+this.city+'<br>')
+    }
+   }
+    var emp1=new employee('nithya',100000,'chennai');
+    var emp2=new employee('aathi',1001,'chennai');
+    var emp3=new employee('aathi',1670,'chennai');
+    emp1.device();
+    emp2.device();
+    emp3.device();
+</script>
+</html>

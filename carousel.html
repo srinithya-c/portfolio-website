@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.carousel {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+input[name="carousel"] {
+  display: none;
+}
+
+#s1:checked ~ .slides { transform: translateX(0%); }
+#s2:checked ~ .slides { transform: translateX(-100%); }
+#s3:checked ~ .slides { transform: translateX(-200%); }
+
+.nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #888;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+</style>
+
+<div class="carousel">
+  <input type="radio" name="carousel" id="s1" checked>
+  <input type="radio" name="carousel" id="s2">
+  <input type="radio" name="carousel" id="s3">
+
+  <div class="slides">
+    <div class="slide"><img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/chicken-biryani-special-sale-design-template-4223c642f16eacd198396f4fcf2fe0d1_screen.jpg?ts=1687515948" width="100%"></div>
+    <div class="slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBuOkyOiKUa7-Rq_oKy4Q6jSrODD0fFqGMiQ&s" width="100%"></div>
+    <div class="slide"><img src="https://img.pikbest.com/origin/06/40/44/48KpIkbEsTIFi.jpg!w700wp" width="100%"></div>
+  </div>
+
+  <div class="nav">
+    <label for="s1"></label>
+    <label for="s2"></label>
+    <label for="s3"></label>
+  </div>
+</div>
+
+</body>
+</html>
