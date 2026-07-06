@@ -1,7 +1,0 @@
-DOM 
-document objevct model
-document:whole html
-object:
-opps everything will be consider as an object
-
-dom tree
